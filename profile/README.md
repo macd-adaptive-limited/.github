@@ -17,7 +17,7 @@ Websites, WhatsApp and automation for small businesses in Ireland. Plain languag
 
 ## Open source
 
-- [archivo-piloto](https://github.com/macd-adaptive-limited/archivo-piloto) - Static portal generator for person-level indexes of historical municipal record collections. AGPL-3.0.
+- [heritage-archive](https://github.com/macd-adaptive-limited/heritage-archive) - Heritage Archive: static portals for historical records archives. AGPL-3.0.
 - [smp-ucp](https://github.com/macd-adaptive-limited/smp-ucp) - SMP-UCP v0.1 proposal, request for feedback. Implementation and schemas are in progress.
 
 ## Contact
