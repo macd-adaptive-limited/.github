@@ -20,3 +20,7 @@
 - Before a rerun, check for an active or green run on the same SHA, or a newer head on the same branch that already contains the change. Do not rerun an obsolete head cancelled by concurrency. Retry only for an identified transient failure; fix and review a real failure instead of rerunning until green.
 - Record the batch scope, any reason for splitting, test results, final SHA, risks and rollback. Include visual evidence for visible changes.
 - Merge requires an independent passing review of the exact head and green CI. Batching never authorizes a deployment, permission change or spending. Existing deployment gates and limits stay unchanged.
+
+### Documentation-only repositories without CI
+
+If the repository has no CI and no required checks, and the diff is documentation only, it may close with independent exact-head review and documented local validation, recording CI as N/A with the reason. This exception does not apply to code, configuration/workflows, permissions, or repositories with required checks.

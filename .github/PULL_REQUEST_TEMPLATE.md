@@ -22,3 +22,7 @@
 - [ ] Final head SHA and CI results are recorded; independent review covers that exact head.
 - [ ] No required checks or security coverage are skipped. Workflow changes, if any, explain equivalent coverage and safe concurrency/path filtering.
 - [ ] Merge does not authorize deployment, higher budgets or permission changes.
+
+### Documentation-only repositories without CI
+
+If the repository has no CI and no required checks, and the diff is documentation only, it may close with independent exact-head review and documented local validation, recording CI as N/A with the reason. This exception does not apply to code, configuration/workflows, permissions, or repositories with required checks.
