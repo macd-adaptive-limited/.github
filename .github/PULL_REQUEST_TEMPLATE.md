@@ -7,6 +7,15 @@
 ## How it was tested
 <!-- Commands run and their results (e.g. `npm test`: 43/43 pass), CI status, manual checks. -->
 
+## Publication and side effects
+- [ ] Files, history, metadata and test data intended for publication were checked for secrets, personal data, customer data and internal information.
+- [ ] Money movement, email sending and other external effects stay behind their existing controls (OFF by default), or are N/A.
+- [ ] Deployment or operations scripts remain marked PREPARATION/custody and are not wired to run automatically, or are N/A.
+
+## Review needed
+- [ ] Server review covers the exact final head SHA (record the SHA in a comment).
+- [ ] BO review covers commercial, money, sending-authority or legal text changes, or is N/A.
+
 ## Risk and rollback
 <!-- What could break and how to revert (revert commit, feature flag, migration rollback). -->
 
